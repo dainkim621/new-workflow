@@ -4,13 +4,13 @@ description: 'GA takes inputs and returns outputs'
 inputs:
   num:
     discription: 'Enter a number
-    required: True
+    required: true
     default: "1"
 outputs:  
   num_squared:
-  description: 'Square of the input'
-  # need to specify the extra 'value' field for 'composite' actions
-  value: ${{ steps.get_square.outputs.num_squared }}
+    description: 'Square of the input'
+    # need to specify the extra 'value' field for 'composite' actions
+    value: ${{ steps.get_square.outputs.num_squared }}
 runs:
   using: 'composite'
   steps:
