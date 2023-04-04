@@ -1,4 +1,4 @@
-#action.yml
+#action.yaml
 name: 'Custom GitHub Action'
 description: 'GA takes inputs and returns outputs'
 inputs:
