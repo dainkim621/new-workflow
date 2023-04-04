@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   get-num-square:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Returns the number square
     step:
       - name: Checkout
