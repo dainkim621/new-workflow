@@ -13,5 +13,5 @@ jobs:
         uses: ./ # Uses an action in the root directory
         with:
           num: 11
-        - name: Print the square
-          run: echo "${{ steps.get_square.outputs.num_squared}}"
+      - name: Print the square
+        run: echo "${{ steps.get_square.outputs.num_squared}}"
