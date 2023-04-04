@@ -3,7 +3,7 @@ name: 'Custom GitHub Action'
 description: 'GA takes inputs and returns outputs'
 inputs:
   num:
-    discription: 'Enter a number
+    discription: 'Enter a number'
     required: true
     default: "1"
 outputs:  
